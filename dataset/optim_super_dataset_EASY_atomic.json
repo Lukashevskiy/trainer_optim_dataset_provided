@@ -1,0 +1,3022 @@
+{
+    "instructions": {
+        "Explore the environment": {
+            "instruction": "Explore the environment",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.1
+            ],
+            "mean_reward": 0.1
+        },
+        "Take a walk around and see what you can find": {
+            "instruction": "Take a walk around and see what you can find",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Look around the area and investigate your surroundings": {
+            "instruction": "Look around the area and investigate your surroundings",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Wander through the environment and discover what's there": {
+            "instruction": "Wander through the environment and discover what's there",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Move freely through the world and explore its corners": {
+            "instruction": "Move freely through the world and explore its corners",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Travel around the map and check out different places": {
+            "instruction": "Travel around the map and check out different places",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Roam the landscape and look for interesting things": {
+            "instruction": "Roam the landscape and look for interesting things",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.03333333333333333
+            ],
+            "mean_reward": 0.03333333333333333
+        },
+        "Survey the environment and observe what\u2019s nearby": {
+            "instruction": "Survey the environment and observe what\u2019s nearby",
+            "plan_options": [
+                "explore(object=world)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)\ndefeat_enemy(enemy_type = zombie)",
+                "create_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Navigate through the terrain and see what it holds": {
+            "instruction": "Navigate through the terrain and see what it holds",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Go out and examine the world around you": {
+            "instruction": "Go out and examine the world around you",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Search the area for anything unusual or interesting": {
+            "instruction": "Search the area for anything unusual or interesting",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Step outside and explore the nearby environment": {
+            "instruction": "Step outside and explore the nearby environment",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Stroll through the world and take in your surroundings": {
+            "instruction": "Stroll through the world and take in your surroundings",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Leave your starting point and venture into the unknown": {
+            "instruction": "Leave your starting point and venture into the unknown",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.03333333333333333
+            ],
+            "mean_reward": 0.03333333333333333
+        },
+        "Move through the world and see what\u2019s waiting": {
+            "instruction": "Move through the world and see what\u2019s waiting",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)\ndefeat_enemy(enemy_type = zombie)",
+                "explore(object=world)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)",
+                "defeat_enemy(enemy_type = zombie)",
+                "create_item(item_type = wooden_sword)",
+                "create_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Uncover hidden parts of the map by walking around": {
+            "instruction": "Uncover hidden parts of the map by walking around",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Explore different directions to learn about the area": {
+            "instruction": "Explore different directions to learn about the area",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Walk through the terrain and learn about the world": {
+            "instruction": "Walk through the terrain and learn about the world",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.03333333333333333
+            ],
+            "mean_reward": 0.03333333333333333
+        },
+        "Head out and explore wherever your path leads": {
+            "instruction": "Head out and explore wherever your path leads",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.03333333333333333
+            ],
+            "mean_reward": 0.03333333333333333
+        },
+        "Investigate your environment and find something new": {
+            "instruction": "Investigate your environment and find something new",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Discover your surroundings by moving through them": {
+            "instruction": "Discover your surroundings by moving through them",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Collect wood.": {
+            "instruction": "Collect wood.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.9333333333333333
+            ],
+            "mean_reward": 0.9333333333333333
+        },
+        "Harvest logs from nearby trees.": {
+            "instruction": "Harvest logs from nearby trees.",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.9666666666666667
+            ],
+            "mean_reward": 0.9666666666666667
+        },
+        "Chop down some timber to gather wood.": {
+            "instruction": "Chop down some timber to gather wood.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)",
+                "explore(object = world)\ngather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.9666666666666667,
+                0.9333333333333333,
+                0.9666666666666667
+            ],
+            "mean_reward": 0.9555555555555556
+        },
+        "Cut a tree to obtain wooden resources.": {
+            "instruction": "Cut a tree to obtain wooden resources.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)",
+                "explore(object=world)\ngather_resource(resource_type = plant)"
+            ],
+            "rewards": [
+                0.9,
+                0.9666666666666667
+            ],
+            "mean_reward": 0.9333333333333333
+        },
+        "Retrieve lumber from a fallen tree.": {
+            "instruction": "Retrieve lumber from a fallen tree.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = plant)",
+                "gather_resource(resource_type = plant)\ncreate_item(item_type = wooden_pickaxe)",
+                "explore(object=world)\ngather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.9666666666666667,
+                0.9666666666666667,
+                0.9666666666666667
+            ],
+            "mean_reward": 0.9666666666666667
+        },
+        "Procure wood by felling trees in the area.": {
+            "instruction": "Procure wood by felling trees in the area.",
+            "plan_options": [
+                "explore(object=world)",
+                "explore(object = world)\ndefeat_enemy(enemy_type = tree)",
+                "explore(object = world)"
+            ],
+            "rewards": [
+                0.9666666666666667,
+                0.9666666666666667,
+                0.9666666666666667
+            ],
+            "mean_reward": 0.9666666666666667
+        },
+        "Place a crafting table.": {
+            "instruction": "Place a crafting table.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)",
+                "create_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.9666666666666667,
+                0.9,
+                0.43333333333333335,
+                0.23333333333333334,
+                0.9,
+                0.8333333333333334,
+                0.7333333333333333
+            ],
+            "mean_reward": 0.7142857142857143
+        },
+        "Set down a crafting bench in the area.": {
+            "instruction": "Set down a crafting bench in the area.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = table)",
+                "explore(object=world)",
+                "explore(object=world)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = table)",
+                "gather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = table)",
+                "create_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.9,
+                0.9666666666666667,
+                0.9666666666666667,
+                0.36666666666666664,
+                0.8333333333333334,
+                0.9333333333333333,
+                0.8,
+                0.3333333333333333,
+                0.7333333333333333
+            ],
+            "mean_reward": 0.7592592592592592
+        },
+        "Install a crafting workstation at your location.": {
+            "instruction": "Install a crafting workstation at your location.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = table)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\nplace_item(item_type = table)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = table)\nplace_item(item_type = table)",
+                "explore(object=world)",
+                "create_item(item_type = table)",
+                "gather_resource(resource_type = wood)\nplace_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = table)\nplace_item(item_type = table)",
+                "gather_resource(resource_type = wood)",
+                "create_item(item_type = table)\nplace_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\nplace_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "place_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.9,
+                0.9666666666666667,
+                0.9,
+                0.9666666666666667,
+                0.9666666666666667,
+                0.9666666666666667,
+                0.8666666666666667,
+                0.8,
+                0.8333333333333334,
+                0.9,
+                0.23333333333333334,
+                0.8666666666666667,
+                0.7666666666666667,
+                0.6333333333333333,
+                0.9,
+                0.6
+            ],
+            "mean_reward": 0.8166666666666667
+        },
+        "Position a workbench for crafting nearby.": {
+            "instruction": "Position a workbench for crafting nearby.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = table)",
+                "gather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "create_item(item_type = table)"
+            ],
+            "rewards": [
+                0.9333333333333333,
+                0.3,
+                0.8,
+                0.5,
+                0.6666666666666666,
+                0.9
+            ],
+            "mean_reward": 0.6833333333333332
+        },
+        "Drop a table designed for crafting tasks.": {
+            "instruction": "Drop a table designed for crafting tasks.",
+            "plan_options": [
+                "place_item(item_type = table)"
+            ],
+            "rewards": [
+                0.9333333333333333
+            ],
+            "mean_reward": 0.9333333333333333
+        },
+        "Arrange a crafting station in a suitable spot.": {
+            "instruction": "Arrange a crafting station in a suitable spot.",
+            "plan_options": [
+                "explore(object=world)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\nplace_item(item_type = table)",
+                "explore(object = world)",
+                "gather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\nplace_item(item_type = table)",
+                "place_item(item_type = table)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\nplace_item(item_type = table)"
+            ],
+            "rewards": [
+                0.9666666666666667,
+                0.8333333333333334,
+                0.9666666666666667,
+                0.26666666666666666,
+                0.5666666666666667,
+                0.5,
+                0.8666666666666667,
+                0.9,
+                0.7,
+                0.6666666666666666
+            ],
+            "mean_reward": 0.7233333333333334
+        },
+        "Eat a cow.": {
+            "instruction": "Eat a cow.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ncreate_item(item_type_to_craft = wooden_sword)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\neat(food_type = plant)\neat(food_type = plant)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\neat(food_type = cow)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\neat(food_type = cow)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)",
+                "gather_resource(resource_type = cow)\neat(food_type = cow)",
+                "gather_resource(resource_type = plant)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)",
+                "eat(food_type = plant)",
+                "gather_resource(resource_type = plant)\neat(food_type = plant)",
+                "gather_resource(resource_type = plant)\neat(food_type = cow)",
+                "gather_resource(resource_type = cow)",
+                "eat(food_type = cow)"
+            ],
+            "rewards": [
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.03333333333333333,
+                0.0,
+                0.0,
+                0.06666666666666667,
+                0.1,
+                0.06666666666666667,
+                0.0,
+                0.06666666666666667
+            ],
+            "mean_reward": 0.05128205128205128
+        },
+        "Consume beef from a butchered cow.": {
+            "instruction": "Consume beef from a butchered cow.",
+            "plan_options": [
+                "gather_resource(resource_type = cow)\ndefeat_enemy(enemy_type = cow)\neat(food_type = beef)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\nexplore(object = world)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)",
+                "defeat_enemy(enemy_type = cow)\neat(food_type = cow)",
+                "defeat_enemy(enemy_type = cow)",
+                "gather_resource(resource_type = cow)",
+                "gather_resource(resource_type = cow)\neat(food_type = beef)",
+                "gather_resource(resource_type = plant)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)"
+            ],
+            "rewards": [
+                0.1,
+                0.03333333333333333,
+                0.06666666666666667,
+                0.0,
+                0.0,
+                0.06666666666666667,
+                0.03333333333333333,
+                0.0
+            ],
+            "mean_reward": 0.037500000000000006
+        },
+        "Devour meat obtained from a bovine animal.": {
+            "instruction": "Devour meat obtained from a bovine animal.",
+            "plan_options": [
+                "defeat_enemy(enemy_type = cow)\neat(food_type = cow)",
+                "explore(object=world)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)",
+                "explore(object=world)\ndefeat_enemy(enemy_type = cow)\ngather_resource(resource_type = cow)\neat(food_type = cow)",
+                "defeat_enemy(enemy_type = cow)",
+                "explore(object=world)\neat(food_type = cow)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.0,
+                0.03333333333333333,
+                0.06666666666666667
+            ],
+            "mean_reward": 0.049999999999999996
+        },
+        "Savor a meal made from cow flesh.": {
+            "instruction": "Savor a meal made from cow flesh.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)",
+                "gather_resource(resource_type = plant)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)"
+            ],
+            "rewards": [
+                0.06666666666666667,
+                0.03333333333333333,
+                0.06666666666666667
+            ],
+            "mean_reward": 0.05555555555555556
+        },
+        "Enjoy a dish prepared with beef.": {
+            "instruction": "Enjoy a dish prepared with beef.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ngather_resource(resource_type = cow)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)",
+                "defeat_enemy(enemy_type = cow)\neat(food_type = beef)",
+                "gather_resource(resource_type = cow)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type_to_craft = cow)\neat(food_type = cow)",
+                "gather_resource(resource_type = plant)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)",
+                "gather_resource(resource_type = cow)",
+                "gather_resource(resource_type = cow)\neat(food_type = cow)",
+                "defeat_enemy(enemy_type = cow)",
+                "gather_resource(resource_type = water)"
+            ],
+            "rewards": [
+                0.1,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.0,
+                0.06666666666666667,
+                0.0,
+                0.0,
+                0.0,
+                0.03333333333333333
+            ],
+            "mean_reward": 0.04242424242424243
+        },
+        "Ingest cow meat for nourishment.": {
+            "instruction": "Ingest cow meat for nourishment.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)",
+                "gather_resource(resource_type = plant)\neat(food_type = plant)",
+                "eat(food_type = plant)",
+                "gather_resource(resource_type = plant)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)"
+            ],
+            "rewards": [
+                0.06666666666666667,
+                0.1,
+                0.06666666666666667,
+                0.03333333333333333,
+                0.03333333333333333
+            ],
+            "mean_reward": 0.06
+        },
+        "Gather a sapling.": {
+            "instruction": "Gather a sapling.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)"
+            ],
+            "rewards": [
+                0.06666666666666667
+            ],
+            "mean_reward": 0.06666666666666667
+        },
+        "Pick up a small tree shoot from the ground.": {
+            "instruction": "Pick up a small tree shoot from the ground.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.06666666666666667,
+                0.1
+            ],
+            "mean_reward": 0.08333333333333334
+        },
+        "Retrieve a sapling to plant elsewhere.": {
+            "instruction": "Retrieve a sapling to plant elsewhere.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = sapling)\nplace_item(item_type = sapling)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = plant)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = plant)",
+                "gather_resource(resource_type = plant)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = wood)\nexplore(object = world)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = sapling)\nplace_item(item_type = sapling)",
+                "place_item(item_type = plant)",
+                "create_item(item_type = sapling)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = sapling)",
+                "gather_resource(resource_type = sapling)",
+                "place_item(item_type = sapling)",
+                "explore(object = world)"
+            ],
+            "rewards": [
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.03333333333333333,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667
+            ],
+            "mean_reward": 0.06388888888888888
+        },
+        "Harvest a sprouting tree seedling.": {
+            "instruction": "Harvest a sprouting tree seedling.",
+            "plan_options": [
+                "explore(object = world)\ngather_resource(resource_type = plant)",
+                "explore(object=world)",
+                "gather_resource(resource_type = plant)",
+                "gather_resource(resource_type = plant)\ncreate_item(item_type = wooden_pickaxe)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = plant)\ncreate_item(item_type = wooden_pickaxe)\ngather_resource(resource_type = wood)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = plant)\ncreate_item(item_type_to_craft = wooden_pickaxe)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_pickaxe)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_pickaxe)\ngather_resource(resource_type = wood)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = plant)\nplace_item(item_type = plant)",
+                "create_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = plant)\ncreate_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = plant)\ncreate_item(item_type_to_craft = wooden_pickaxe)",
+                "explore(object = world)"
+            ],
+            "rewards": [
+                0.1,
+                0.1,
+                0.03333333333333333,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667
+            ],
+            "mean_reward": 0.06969696969696969
+        },
+        "Find and collect a young tree sprout.": {
+            "instruction": "Find and collect a young tree sprout.",
+            "plan_options": [
+                "explore(object=world)",
+                "explore(object = world)"
+            ],
+            "rewards": [
+                0.1,
+                0.1
+            ],
+            "mean_reward": 0.1
+        },
+        "Gather a tree offspring ready for planting.": {
+            "instruction": "Gather a tree offspring ready for planting.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = plant)",
+                "explore(object=world)",
+                "gather_resource(resource_type = plant)",
+                "explore(object = world)"
+            ],
+            "rewards": [
+                0.1,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.1
+            ],
+            "mean_reward": 0.08333333333333334
+        },
+        "Collect a drink.": {
+            "instruction": "Collect a drink.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type = plant)\neat(food_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type = water)",
+                "gather_resource(resource_type = water)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type_to_craft = plant)\neat(food_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type_to_craft = water)",
+                "gather_resource(resource_type = plant)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)",
+                "gather_resource(resource_type = plant)\neat(food_type = plant)",
+                "gather_resource(resource_type = water)\ngather_resource(resource_type = water)",
+                "eat(food_type = plant)\ngather_resource(resource_type = water)"
+            ],
+            "rewards": [
+                0.6,
+                0.6333333333333333,
+                0.6666666666666666,
+                0.16666666666666666,
+                0.5666666666666667,
+                0.5666666666666667,
+                0.6,
+                0.5
+            ],
+            "mean_reward": 0.5375
+        },
+        "Retrieve a liquid for hydration.": {
+            "instruction": "Retrieve a liquid for hydration.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = water)",
+                "gather_resource(resource_type = water)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.6333333333333333,
+                0.6333333333333333,
+                0.6333333333333333
+            ],
+            "mean_reward": 0.6333333333333333
+        },
+        "Acquire a beverage to quench thirst.": {
+            "instruction": "Acquire a beverage to quench thirst.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = plant)\neat(food_type = plant)",
+                "gather_resource(resource_type = plant)\neat(food_type = plant)",
+                "gather_resource(resource_type = plant)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.6666666666666666,
+                0.6,
+                0.26666666666666666,
+                0.6333333333333333
+            ],
+            "mean_reward": 0.5416666666666666
+        },
+        "Find and collect a drinkable resource.": {
+            "instruction": "Find and collect a drinkable resource.",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.6666666666666666
+            ],
+            "mean_reward": 0.6666666666666666
+        },
+        "Gather a liquid item suitable for drinking.": {
+            "instruction": "Gather a liquid item suitable for drinking.",
+            "plan_options": [
+                "gather_resource(resource_type = water)",
+                "explore(object=world)\ngather_resource(resource_type = water)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.5333333333333333,
+                0.7,
+                0.6333333333333333
+            ],
+            "mean_reward": 0.6222222222222222
+        },
+        "Procure a refreshing drink from nearby.": {
+            "instruction": "Procure a refreshing drink from nearby.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type = plant)\neat(food_type = plant)\ncreate_item(item_type = water)\ndrink(item_type = water)",
+                "explore(object=world)",
+                "explore(object=world)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type = plant)\neat(food_type = plant)\ncreate_item(item_type = water)",
+                "gather_resource(resource_type = water)\neat(food_type = water)",
+                "explore(object=world)\ngather_resource(resource_type = water)\neat(food_type = water)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type = plant)\neat(food_type = plant)\ncreate_item(item_type = water)\ndrink(food_type = water)",
+                "gather_resource(resource_type = plant)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)",
+                "gather_resource(resource_type = water)",
+                "gather_resource(resource_type = plant)\ncreate_item(item_type = water)",
+                "explore(object=world)\neat(food_type = water)",
+                "explore(object=world)\ngather_resource(resource_type = plant)",
+                "explore(object=world)\ngather_resource(resource_type = water)",
+                "explore(object=world)\neat(food_type = plant)",
+                "eat(food_type = water)"
+            ],
+            "rewards": [
+                0.7,
+                0.6,
+                0.4,
+                0.6,
+                0.5,
+                0.6333333333333333,
+                0.23333333333333334,
+                0.5666666666666667,
+                0.5666666666666667,
+                0.6666666666666666,
+                0.5,
+                0.5666666666666667,
+                0.5333333333333333,
+                0.6,
+                -1
+            ],
+            "mean_reward": 0.5476190476190476
+        },
+        "Craft a wooden pickaxe.": {
+            "instruction": "Craft a wooden pickaxe.",
+            "plan_options": [
+                "create_item(item_type = wooden_pickaxe)",
+                "create_item(item_type_to_craft = wooden_pickaxe)"
+            ],
+            "rewards": [
+                0.8666666666666667,
+                0.9
+            ],
+            "mean_reward": 0.8833333333333333
+        },
+        "Assemble a mining tool made of wood.": {
+            "instruction": "Assemble a mining tool made of wood.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)",
+                "create_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.8,
+                0.13333333333333333,
+                0.8666666666666667,
+                0.8,
+                0.16666666666666666
+            ],
+            "mean_reward": 0.5533333333333333
+        },
+        "Construct a wooden pickaxe for digging.": {
+            "instruction": "Construct a wooden pickaxe for digging.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)",
+                "create_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.7666666666666667,
+                0.23333333333333334,
+                0.8666666666666667,
+                0.7,
+                0.23333333333333334
+            ],
+            "mean_reward": 0.5599999999999999
+        },
+        "Fashion a pickaxe out of wooden parts.": {
+            "instruction": "Fashion a pickaxe out of wooden parts.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)",
+                "create_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.8333333333333334,
+                0.13333333333333333,
+                0.7333333333333333,
+                0.8333333333333334,
+                0.2
+            ],
+            "mean_reward": 0.5466666666666666
+        },
+        "Carve and build a wooden mining tool.": {
+            "instruction": "Carve and build a wooden mining tool.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_pickaxe)",
+                "create_item(item_type_to_craft = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "create_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)"
+            ],
+            "rewards": [
+                0.8,
+                0.8,
+                0.1,
+                0.7,
+                0.8666666666666667,
+                0.23333333333333334,
+                0.8333333333333334,
+                0.8333333333333334
+            ],
+            "mean_reward": 0.6458333333333333
+        },
+        "Forge a lightweight pickaxe from wood.": {
+            "instruction": "Forge a lightweight pickaxe from wood.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "create_item(item_type_to_craft = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)",
+                "create_item(item_type = wooden_pickaxe)"
+            ],
+            "rewards": [
+                0.8333333333333334,
+                0.6666666666666666,
+                0.03333333333333333,
+                0.3,
+                0.8,
+                0.7666666666666667,
+                0.8333333333333334,
+                0.8333333333333334
+            ],
+            "mean_reward": 0.6333333333333333
+        },
+        "Craft a wooden sword.": {
+            "instruction": "Craft a wooden sword.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "create_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)",
+                "create_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)"
+            ],
+            "rewards": [
+                0.8,
+                0.7666666666666667,
+                0.8,
+                0.9333333333333333,
+                0.7333333333333333,
+                0.0,
+                0.0,
+                0.8666666666666667,
+                0.7333333333333333
+            ],
+            "mean_reward": 0.625925925925926
+        },
+        "Forge a blade made from wooden materials.": {
+            "instruction": "Forge a blade made from wooden materials.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)",
+                "create_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "create_item(item_type_to_craft = wooden_sword)"
+            ],
+            "rewards": [
+                0.8,
+                0.8,
+                0.0,
+                0.8666666666666667,
+                0.7333333333333333,
+                0.0,
+                0.7333333333333333,
+                0.8333333333333334
+            ],
+            "mean_reward": 0.5958333333333333
+        },
+        "Carve a wooden sword for protection.": {
+            "instruction": "Carve a wooden sword for protection.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "create_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "create_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)"
+            ],
+            "rewards": [
+                0.7666666666666667,
+                0.7333333333333333,
+                0.8,
+                0.8666666666666667,
+                0.0,
+                0.0,
+                0.6666666666666666,
+                0.7666666666666667,
+                0.6333333333333333,
+                0.9,
+                0.0,
+                0.8333333333333334
+            ],
+            "mean_reward": 0.5805555555555556
+        },
+        "Construct a simple sword using wood.": {
+            "instruction": "Construct a simple sword using wood.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "create_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)",
+                "create_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.7333333333333333,
+                0.7333333333333333,
+                0.8666666666666667,
+                0.7333333333333333,
+                0.03333333333333333,
+                0.8333333333333334,
+                0.7666666666666667,
+                0.0
+            ],
+            "mean_reward": 0.5874999999999999
+        },
+        "Create a weapon crafted from timber.": {
+            "instruction": "Create a weapon crafted from timber.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "create_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "create_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.6333333333333333,
+                0.6666666666666666,
+                0.7666666666666667,
+                0.8666666666666667,
+                0.9,
+                0.7333333333333333,
+                0.0,
+                0.0,
+                0.8666666666666667,
+                0.7,
+                0.0
+            ],
+            "mean_reward": 0.5575757575757576
+        },
+        "Build a wooden blade for self-defense.": {
+            "instruction": "Build a wooden blade for self-defense.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "create_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "create_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)"
+            ],
+            "rewards": [
+                0.7,
+                0.7666666666666667,
+                0.8666666666666667,
+                0.0,
+                0.8666666666666667,
+                0.0,
+                0.9,
+                0.6333333333333333
+            ],
+            "mean_reward": 0.5916666666666667
+        },
+        "Place a plant.": {
+            "instruction": "Place a plant.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = plant)"
+            ],
+            "rewards": [
+                0.1,
+                0.06666666666666667
+            ],
+            "mean_reward": 0.08333333333333334
+        },
+        "Set a plant into the soil.": {
+            "instruction": "Set a plant into the soil.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = soil)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = plant)\nexplore(object = world)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = plant)\nexplore(object = world)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)\ndefeat_enemy(enemy_type = zombie)",
+                "create_item(item_type_to_craft = wooden_sword)",
+                "gather_resource(resource_type = wood)",
+                "gather_resource(resource_type = soil)",
+                "gather_resource(resource_type = plant)",
+                "explore(object = world)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)",
+                "place_item(item_type = plant)"
+            ],
+            "rewards": [
+                0.1,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.1,
+                0.06666666666666667,
+                0.1,
+                0.06666666666666667,
+                0.03333333333333333,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667
+            ],
+            "mean_reward": 0.07179487179487179
+        },
+        "Position a green sprout in the ground.": {
+            "instruction": "Position a green sprout in the ground.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\nplace_item(item_type = plant)",
+                "place_item(item_type = plant)"
+            ],
+            "rewards": [
+                0.06666666666666667,
+                0.06666666666666667
+            ],
+            "mean_reward": 0.06666666666666667
+        },
+        "Plant a botanical seedling in the area.": {
+            "instruction": "Plant a botanical seedling in the area.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\nplace_item(item_type = plant)",
+                "explore(object=world)\ngather_resource(resource_type = plant)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = plant)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.1,
+                0.1,
+                0.06666666666666667,
+                0.13333333333333333
+            ],
+            "mean_reward": 0.1
+        },
+        "Install a plant in a sunny location.": {
+            "instruction": "Install a plant in a sunny location.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\nexplore(object = world)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = plant)\nexplore(object = world)\ndefeat_enemy(enemy_type = zombie)\nplace_item(item_type = plant)",
+                "explore(object=world)\ngather_resource(resource_type = plant)\nexplore(object=world)\ngather_resource(resource_type = wood)\ncreate_item(item_type = table)\nplace_item(item_type = table)\nexplore(object=world)\ngather_resource(resource_type = plant)\nplace_item(item_type = plant)",
+                "explore(object=world)\ngather_resource(resource_type=plant)",
+                "gather_resource(resource_type = plant)\nexplore(object = world)\ndefeat_enemy(enemy_type = cow)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = plant)\nexplore(object = world)",
+                "gather_resource(resource_type = plant)",
+                "explore(object=world)",
+                "explore(object=world)\nexplore(object=world)",
+                "explore(object = world)"
+            ],
+            "rewards": [
+                0.06666666666666667,
+                0.1,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.1,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.1
+            ],
+            "mean_reward": 0.07666666666666667
+        },
+        "Place a flower or shrub in a chosen spot.": {
+            "instruction": "Place a flower or shrub in a chosen spot.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = plant)\nplace_item(item_type = plant)",
+                "gather_resource(resource_type = plant)\nplace_item(item_type = plant)",
+                "place_item(item_type = plant)",
+                "explore(object=world)",
+                "explore(object=world)\nplace_item(item_type = plant)"
+            ],
+            "rewards": [
+                0.1,
+                0.13333333333333333,
+                0.1,
+                0.06666666666666667,
+                0.06666666666666667
+            ],
+            "mean_reward": 0.09333333333333334
+        },
+        "Defeat a zombie.": {
+            "instruction": "Defeat a zombie.",
+            "plan_options": [
+                "explore(object=world)\ndefeat_enemy(enemy_type = zombie)",
+                "explore(object=world)\n: defeat_enemy(enemy_type = zombie)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.1,
+                0.06666666666666667,
+                0.1
+            ],
+            "mean_reward": 0.0888888888888889
+        },
+        "Eliminate an undead creature lurking nearby.": {
+            "instruction": "Eliminate an undead creature lurking nearby.",
+            "plan_options": [
+                "explore(object=world)",
+                "explore(object=world)\ndefeat_enemy(enemy_type = zombie)"
+            ],
+            "rewards": [
+                0.1,
+                0.1
+            ],
+            "mean_reward": 0.1
+        },
+        "Vanquish a wandering zombie in combat.": {
+            "instruction": "Vanquish a wandering zombie in combat.",
+            "plan_options": [
+                "explore(object=world)\ndefeat_enemy(enemy_type = zombie)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.16666666666666666,
+                0.13333333333333333
+            ],
+            "mean_reward": 0.15
+        },
+        "Destroy a rotting foe roaming the area.": {
+            "instruction": "Destroy a rotting foe roaming the area.",
+            "plan_options": [
+                "explore(object=world)\ndefeat_enemy(enemy_type = zombie)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.13333333333333333,
+                0.13333333333333333
+            ],
+            "mean_reward": 0.13333333333333333
+        },
+        "Take down a zombie using any weapon.": {
+            "instruction": "Take down a zombie using any weapon.",
+            "plan_options": [
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)\ndefeat_enemy(enemy_type = zombie)",
+                "explore(object=world)\ndefeat_enemy(enemy_type = zombie)",
+                "explore(object=world)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)\ndefeat_enemy(enemy_type = zombie)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)\ndefeat_enemy(enemy_type = zombie)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)",
+                "create_item(item_type_to_craft = wooden_sword)",
+                "create_item(item_type_to_craft = wooden_sword)\ndefeat_enemy(enemy_type = zombie)",
+                "create_item(item_type = wooden_sword)",
+                "create_item(item_type = wooden_sword)\ndefeat_enemy(enemy_type = zombie)"
+            ],
+            "rewards": [
+                0.03333333333333333,
+                0.1,
+                0.1,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.06666666666666667,
+                0.03333333333333333,
+                0.06666666666666667
+            ],
+            "mean_reward": 0.06666666666666667
+        },
+        "Overcome a night-stalking undead being.": {
+            "instruction": "Overcome a night-stalking undead being.",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.1
+            ],
+            "mean_reward": 0.1
+        },
+        "Collect stone.": {
+            "instruction": "Collect stone.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)"
+            ],
+            "rewards": [
+                0.9
+            ],
+            "mean_reward": 0.9
+        },
+        "Mine stone blocks from a rocky surface.": {
+            "instruction": "Mine stone blocks from a rocky surface.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)\nexplore(object = world)\nplace_item(item_type = wooden_pickaxe)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)",
+                "gather_resource(resource_type = wood)\nexplore(object = world)",
+                "create_item(item_type = wooden_pickaxe)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)",
+                "explore(object = world)",
+                "gather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)\nexplore(object = world)",
+                "create_item(item_type = wooden_pickaxe)\nexplore(object = world)"
+            ],
+            "rewards": [
+                0.9666666666666667,
+                0.7666666666666667,
+                0.9,
+                0.7333333333333333,
+                0.7333333333333333,
+                0.5666666666666667,
+                0.8666666666666667,
+                0.03333333333333333,
+                0.9,
+                0.8
+            ],
+            "mean_reward": 0.7266666666666667
+        },
+        "Break apart rocks to gather stone.": {
+            "instruction": "Break apart rocks to gather stone.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nexplore(object = world)",
+                "gather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)"
+            ],
+            "rewards": [
+                0.9666666666666667,
+                0.9333333333333333,
+                0.9,
+                0.9
+            ],
+            "mean_reward": 0.9249999999999999
+        },
+        "Harvest stone materials from the ground.": {
+            "instruction": "Harvest stone materials from the ground.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)",
+                "explore(object=world)\ngather_resource(resource_type = stone)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.8666666666666667,
+                0.9666666666666667,
+                0.9666666666666667
+            ],
+            "mean_reward": 0.9333333333333335
+        },
+        "Retrieve stone fragments from nearby boulders.": {
+            "instruction": "Retrieve stone fragments from nearby boulders.",
+            "plan_options": [
+                "explore(object=world)",
+                "explore(object = world)",
+                "explore(object = world)\ngather_resource(resource_type = stone)"
+            ],
+            "rewards": [
+                0.9333333333333333,
+                0.9666666666666667,
+                0.9666666666666667
+            ],
+            "mean_reward": 0.9555555555555556
+        },
+        "Extract useful stone for crafting purposes.": {
+            "instruction": "Extract useful stone for crafting purposes.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)"
+            ],
+            "rewards": [
+                0.9
+            ],
+            "mean_reward": 0.9
+        },
+        "Place a stone block.": {
+            "instruction": "Place a stone block.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\nplace_item(item_type = stone)",
+                "gather_resource(resource_type = stone)"
+            ],
+            "rewards": [
+                0.8666666666666667,
+                0.7333333333333333
+            ],
+            "mean_reward": 0.8
+        },
+        "Set a block of stone in its place.": {
+            "instruction": "Set a block of stone in its place.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\nplace_item(item_type = stone)",
+                "gather_resource(resource_type = stone)",
+                "place_item(item_type = stone)"
+            ],
+            "rewards": [
+                0.8333333333333334,
+                0.7,
+                0.8
+            ],
+            "mean_reward": 0.7777777777777777
+        },
+        "Position a solid stone block on the ground.": {
+            "instruction": "Position a solid stone block on the ground.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\nplace_item(item_type = stone)",
+                "gather_resource(resource_type = stone)",
+                "place_item(item_type = stone)"
+            ],
+            "rewards": [
+                0.8666666666666667,
+                0.8333333333333334,
+                0.7666666666666667
+            ],
+            "mean_reward": 0.8222222222222223
+        },
+        "Install a stone cube where needed.": {
+            "instruction": "Install a stone cube where needed.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\nplace_item(item_type = stone)",
+                "explore(object=world)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = stone)",
+                "gather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)"
+            ],
+            "rewards": [
+                0.7666666666666667,
+                0.9333333333333333,
+                0.8666666666666667,
+                0.6666666666666666,
+                0.7,
+                0.8666666666666667
+            ],
+            "mean_reward": 0.8000000000000002
+        },
+        "Arrange a block of stone in the area.": {
+            "instruction": "Arrange a block of stone in the area.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\nplace_item(item_type = stone)",
+                "gather_resource(resource_type = stone)"
+            ],
+            "rewards": [
+                0.9,
+                0.7
+            ],
+            "mean_reward": 0.8
+        },
+        "Place a stone slab in the desired spot.": {
+            "instruction": "Place a stone slab in the desired spot.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\ncreate_item(item_type = stone_slab)\nplace_item(item_type = stone_slab)",
+                "gather_resource(resource_type = stone)"
+            ],
+            "rewards": [
+                0.8333333333333334,
+                0.8
+            ],
+            "mean_reward": 0.8166666666666667
+        },
+        "Eat a plant.": {
+            "instruction": "Eat a plant.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\neat(food_type = plant)",
+                "gather_resource(resource_type = plant)"
+            ],
+            "rewards": [
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Consume a green plant for sustenance.": {
+            "instruction": "Consume a green plant for sustenance.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\neat(food_type = plant)",
+                "gather_resource(resource_type = plant)"
+            ],
+            "rewards": [
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Nibble on vegetation to regain strength.": {
+            "instruction": "Nibble on vegetation to regain strength.",
+            "plan_options": [
+                "eat(food_type = plant)",
+                "gather_resource(resource_type = plant)\neat(food_type = plant)"
+            ],
+            "rewards": [
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Eat a leaf-based food source.": {
+            "instruction": "Eat a leaf-based food source.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\neat(food_type = plant)",
+                "gather_resource(resource_type = plant)"
+            ],
+            "rewards": [
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Chew on a herbaceous snack for energy.": {
+            "instruction": "Chew on a herbaceous snack for energy.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\neat(food_type = plant)",
+                "gather_resource(resource_type = plant)",
+                "eat(food_type = plant)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Devour a plant to satisfy your hunger.": {
+            "instruction": "Devour a plant to satisfy your hunger.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\neat(food_type = plant)",
+                "eat(food_type = plant)",
+                "gather_resource(resource_type = plant)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Defeat a skeleton.": {
+            "instruction": "Defeat a skeleton.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)\ndefeat_enemy(enemy_type = skeleton)",
+                "explore(object=world)\ndefeat_enemy(enemy_type = skeleton)",
+                "gather_resource(resource_type = iron)\n: create_item(item_type_to_craft = iron_sword)\n: defeat_enemy(enemy_type = skeleton)",
+                "gather_resource(resource_type = iron)\ndefeat_enemy(enemy_type = skeleton)",
+                "gather_resource(resource_type = iron)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0,
+                0.03333333333333333,
+                0.0,
+                0.03333333333333333,
+                0.0,
+                0.03333333333333333
+            ],
+            "mean_reward": 0.016666666666666666
+        },
+        "Destroy a bony adversary roaming nearby.": {
+            "instruction": "Destroy a bony adversary roaming nearby.",
+            "plan_options": [
+                "explore(object=world)\ndefeat_enemy(enemy_type = skeleton)",
+                "explore(object=world)",
+                "explore(object=world)\nmove_to(object=skeleton)\ndefeat_enemy(enemy_type = skeleton)",
+                "explore(object=world)\ngather_resource(resource_type=wood)\ngather_resource(resource_type=wood)\ncreate_item(item_type=wooden_sword)\ndefeat_enemy(enemy_type=skeleton)",
+                "explore(object=world)\ncreate_item(item_type=wooden_sword)"
+            ],
+            "rewards": [
+                0.0,
+                0.03333333333333333,
+                0.03333333333333333,
+                0.0,
+                0.03333333333333333
+            ],
+            "mean_reward": 0.02
+        },
+        "Vanquish a skeletal warrior in combat.": {
+            "instruction": "Vanquish a skeletal warrior in combat.",
+            "plan_options": [
+                "explore(object=world)\ndefeat_enemy(enemy_type = skeleton)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.03333333333333333,
+                0.03333333333333333
+            ],
+            "mean_reward": 0.03333333333333333
+        },
+        "Eliminate a skeleton using your weapon.": {
+            "instruction": "Eliminate a skeleton using your weapon.",
+            "plan_options": [
+                "defeat_enemy(enemy_type = skeleton)"
+            ],
+            "rewards": [
+                0.03333333333333333
+            ],
+            "mean_reward": 0.03333333333333333
+        },
+        "Overpower a bone-clad enemy in battle.": {
+            "instruction": "Overpower a bone-clad enemy in battle.",
+            "plan_options": [
+                "explore(object=world)\ndefeat_enemy(enemy_type = zombie)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.03333333333333333,
+                0.0
+            ],
+            "mean_reward": 0.016666666666666666
+        },
+        "Take down a skeletal creature in the area.": {
+            "instruction": "Take down a skeletal creature in the area.",
+            "plan_options": [
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.03333333333333333
+            ],
+            "mean_reward": 0.03333333333333333
+        },
+        "Craft a stone pickaxe.": {
+            "instruction": "Craft a stone pickaxe.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ncreate_item(item_type = stone_pickaxe)",
+                "gather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ncreate_item(item_type = stone_pickaxe)"
+            ],
+            "rewards": [
+                0.5333333333333333,
+                0.5666666666666667,
+                0.36666666666666664,
+                0.6333333333333333,
+                0.5
+            ],
+            "mean_reward": 0.52
+        },
+        "Forge a sturdy pickaxe from stone.": {
+            "instruction": "Forge a sturdy pickaxe from stone.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)"
+            ],
+            "rewards": [
+                0.5,
+                0.5,
+                0.5,
+                0.5333333333333333,
+                0.43333333333333335
+            ],
+            "mean_reward": 0.49333333333333335
+        },
+        "Construct a durable mining tool using rocks.": {
+            "instruction": "Construct a durable mining tool using rocks.",
+            "plan_options": [
+                "gather_resource(resource_type = rock)\ngather_resource(resource_type = rock)\ncreate_item(item_type = stone_pickaxe)",
+                "gather_resource(resource_type = rock)",
+                "gather_resource(resource_type = rock)\ngather_resource(resource_type = rock)"
+            ],
+            "rewards": [
+                0.7,
+                0.5666666666666667,
+                0.6666666666666666
+            ],
+            "mean_reward": 0.6444444444444444
+        },
+        "Create a pickaxe built from stone materials.": {
+            "instruction": "Create a pickaxe built from stone materials.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)"
+            ],
+            "rewards": [
+                0.5666666666666667,
+                0.4,
+                0.4666666666666667,
+                0.36666666666666664,
+                0.43333333333333335,
+                0.36666666666666664,
+                0.6
+            ],
+            "mean_reward": 0.4571428571428572
+        },
+        "Carve a reliable pickaxe from stone.": {
+            "instruction": "Carve a reliable pickaxe from stone.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)",
+                "create_item(item_type = stone_pickaxe)"
+            ],
+            "rewards": [
+                0.6,
+                0.5666666666666667,
+                0.43333333333333335,
+                0.5666666666666667,
+                0.5,
+                0.5333333333333333
+            ],
+            "mean_reward": 0.5333333333333333
+        },
+        "Assemble a heavy-duty stone pickaxe.": {
+            "instruction": "Assemble a heavy-duty stone pickaxe.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.5666666666666667,
+                0.4666666666666667,
+                0.5333333333333333,
+                0.36666666666666664,
+                0.6333333333333333,
+                0.5666666666666667,
+                0.36666666666666664,
+                0.43333333333333335,
+                0.4666666666666667,
+                0.4666666666666667,
+                0.0
+            ],
+            "mean_reward": 0.4424242424242424
+        },
+        "Place a furnace.": {
+            "instruction": "Place a furnace.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\ncreate_item(item_type = furnace)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "place_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\ncreate_item(item_type = furnace)"
+            ],
+            "rewards": [
+                0.9,
+                0.9,
+                0.9,
+                0.7333333333333333,
+                0.9,
+                0.8666666666666667,
+                0.8666666666666667,
+                0.8666666666666667,
+                0.8666666666666667
+            ],
+            "mean_reward": 0.8666666666666667
+        },
+        "Set up a furnace for smelting.": {
+            "instruction": "Set up a furnace for smelting.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = coal)\ngather_resource(resource_type = stone)\ncreate_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = stone)\nplace_item(item_type = stone)\nplace_item(item_type = stone)\nplace_item(item_type = stone)\ncreate_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "place_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = coal)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = stone)",
+                "place_item(item_type = stone)",
+                "gather_resource(resource_type = stone)\nplace_item(item_type = stone)"
+            ],
+            "rewards": [
+                0.9,
+                0.8666666666666667,
+                0.8333333333333334,
+                0.9333333333333333,
+                0.8666666666666667,
+                0.7333333333333333,
+                0.8666666666666667,
+                0.9666666666666667,
+                0.7,
+                0.8,
+                0.9,
+                0.8666666666666667,
+                0.9,
+                0.8333333333333334
+            ],
+            "mean_reward": 0.854761904761905
+        },
+        "Install a furnace at your location.": {
+            "instruction": "Install a furnace at your location.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)"
+            ],
+            "rewards": [
+                0.8666666666666667,
+                0.9,
+                0.9333333333333333,
+                0.8666666666666667,
+                0.8333333333333334,
+                0.8,
+                0.7666666666666667,
+                0.8666666666666667
+            ],
+            "mean_reward": 0.8541666666666666
+        },
+        "Position a smelter in the area.": {
+            "instruction": "Position a smelter in the area.",
+            "plan_options": [
+                "gather_resource(resource_type = coal)\ngather_resource(resource_type = stone)\ncreate_item(item_type = furnace)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = coal)\ngather_resource(resource_type = stone)\ncreate_item(item_type_to_craft = furnace)\nplace_item(item_type = furnace)",
+                "explore(object=world)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "place_item(item_type = furnace)",
+                "gather_resource(resource_type = coal)"
+            ],
+            "rewards": [
+                0.9333333333333333,
+                0.9333333333333333,
+                0.9333333333333333,
+                0.9333333333333333,
+                0.8333333333333334,
+                0.8,
+                0.8666666666666667,
+                0.8333333333333334,
+                0.8
+            ],
+            "mean_reward": 0.874074074074074
+        },
+        "Drop a furnace for crafting needs.": {
+            "instruction": "Drop a furnace for crafting needs.",
+            "plan_options": [
+                "place_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\ncreate_item(item_type = furnace)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ncreate_item(item_type = furnace)"
+            ],
+            "rewards": [
+                0.9,
+                0.9333333333333333,
+                0.9,
+                0.8,
+                0.8
+            ],
+            "mean_reward": 0.8666666666666666
+        },
+        "Put a furnace on the ground to use.": {
+            "instruction": "Put a furnace on the ground to use.",
+            "plan_options": [
+                "gather_resource(resource_type = stone)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = furnace)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)",
+                "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)",
+                "place_item(item_type = furnace)"
+            ],
+            "rewards": [
+                0.9,
+                0.9,
+                0.8666666666666667,
+                0.8,
+                0.7333333333333333,
+                0.8333333333333334
+            ],
+            "mean_reward": 0.8388888888888889
+        },
+        "Collect coal.": {
+            "instruction": "Collect coal.",
+            "plan_options": [
+                "gather_resource(resource_type = coal)"
+            ],
+            "rewards": [
+                0.5666666666666667
+            ],
+            "mean_reward": 0.5666666666666667
+        },
+        "Mine coal from the ground.": {
+            "instruction": "Mine coal from the ground.",
+            "plan_options": [
+                "gather_resource(resource_type = coal)",
+                "explore(object=world)\ngather_resource(resource_type = coal)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.4666666666666667,
+                0.6333333333333333,
+                0.6333333333333333
+            ],
+            "mean_reward": 0.5777777777777778
+        },
+        "Harvest coal for smelting purposes.": {
+            "instruction": "Harvest coal for smelting purposes.",
+            "plan_options": [
+                "gather_resource(resource_type = coal)"
+            ],
+            "rewards": [
+                0.5666666666666667
+            ],
+            "mean_reward": 0.5666666666666667
+        },
+        "Retrieve black ore to use as fuel.": {
+            "instruction": "Retrieve black ore to use as fuel.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = coal)",
+                "gather_resource(resource_type = coal)",
+                "explore(object = world)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.6333333333333333,
+                0.43333333333333335,
+                0.6,
+                0.6666666666666666
+            ],
+            "mean_reward": 0.5833333333333333
+        },
+        "Extract coal from a nearby deposit.": {
+            "instruction": "Extract coal from a nearby deposit.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = coal)",
+                "explore(object=world)\ngather_resource(resource_type = coal)\nplace_item(item_type = coal)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.6666666666666666,
+                0.6666666666666666,
+                0.6
+            ],
+            "mean_reward": 0.6444444444444444
+        },
+        "Gather some coal for crafting.": {
+            "instruction": "Gather some coal for crafting.",
+            "plan_options": [
+                "gather_resource(resource_type = coal)"
+            ],
+            "rewards": [
+                0.5333333333333333
+            ],
+            "mean_reward": 0.5333333333333333
+        },
+        "Collect iron.": {
+            "instruction": "Collect iron.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)",
+                "explore(object=world)\ngather_resource(resource_type = iron)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.26666666666666666
+            ],
+            "mean_reward": 0.3111111111111111
+        },
+        "Mine iron ore from the earth.": {
+            "instruction": "Mine iron ore from the earth.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)",
+                "explore(object=world)\ngather_resource(resource_type = iron)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.2,
+                0.26666666666666666,
+                0.3103448275862069
+            ],
+            "mean_reward": 0.25900383141762456
+        },
+        "Gather raw iron for forging.": {
+            "instruction": "Gather raw iron for forging.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)"
+            ],
+            "rewards": [
+                0.3333333333333333
+            ],
+            "mean_reward": 0.3333333333333333
+        },
+        "Extract iron from a nearby vein.": {
+            "instruction": "Extract iron from a nearby vein.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.2,
+                0.26666666666666666,
+                0.3333333333333333
+            ],
+            "mean_reward": 0.26666666666666666
+        },
+        "Retrieve iron ore for crafting tools.": {
+            "instruction": "Retrieve iron ore for crafting tools.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.4,
+                0.23333333333333334,
+                0.3
+            ],
+            "mean_reward": 0.3111111111111111
+        },
+        "Harvest metallic resources for use.": {
+            "instruction": "Harvest metallic resources for use.",
+            "plan_options": [
+                "explore(object=world)",
+                "gather_resource(resource_type = iron)",
+                "explore(object=world)\ngather_resource(resource_type = iron)"
+            ],
+            "rewards": [
+                0.3,
+                0.26666666666666666,
+                0.3
+            ],
+            "mean_reward": 0.2888888888888889
+        },
+        "Collect a diamond.": {
+            "instruction": "Collect a diamond.",
+            "plan_options": [
+                "gather_resource(resource_type = diamond)",
+                "explore(object=world)\ngather_resource(resource_type = diamond)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Mine a shiny diamond from the ground.": {
+            "instruction": "Mine a shiny diamond from the ground.",
+            "plan_options": [
+                "gather_resource(resource_type = diamond)",
+                "explore(object=world)\ngather_resource(resource_type = diamond)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Retrieve a precious gem from a deposit.": {
+            "instruction": "Retrieve a precious gem from a deposit.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = diamond)",
+                "explore(object=world)\ngather_resource(resource_type = gem)",
+                "explore(object=world)",
+                "explore(object = world)\ngather_resource(resource_type = precious_gem)",
+                "explore(object = world)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Harvest a sparkling jewel for crafting.": {
+            "instruction": "Harvest a sparkling jewel for crafting.",
+            "plan_options": [
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)",
+                "explore(object=world)\ngather_resource(resource_type = plant)",
+                "explore(object = world)\ngather_resource(resource_type = plant)\neat(food_type = plant)",
+                "explore(object = world)\ngather_resource(resource_type = plant)\neat(food_type = plant)\ngather_resource(resource_type = water)\ngather_resource(resource_type = plant)\ncreate_item(item_type_to_craft = sparkling_jewel)",
+                "explore(object = world)",
+                "explore(object = world)\neat(food_type = plant)",
+                "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)",
+                "gather_resource(resource_type = plant)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Find and collect a valuable diamond.": {
+            "instruction": "Find and collect a valuable diamond.",
+            "plan_options": [
+                "explore(object=world)",
+                "explore(object = world)\ngather_resource(resource_type = diamond)",
+                "explore(object = world)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Extract a rare diamond from a hidden vein.": {
+            "instruction": "Extract a rare diamond from a hidden vein.",
+            "plan_options": [
+                "explore(object=world)\ngather_resource(resource_type = diamond)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Craft an iron pickaxe.": {
+            "instruction": "Craft an iron pickaxe.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Forge a durable pickaxe using iron.": {
+            "instruction": "Forge a durable pickaxe using iron.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_pickaxe)\ndestroy_item(item_type = stone_pickaxe)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_pickaxe)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type = stone_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type = stone_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type = stone_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_pickaxe)\ncreate_item(item_type_to_craft = stone_pickaxe)\ncreate_item(item_type_to_craft = stone_pickaxe)\ncreate_item(item_type_to_craft = stone_pickaxe)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)",
+                "gather_resource(resource_type = wood)",
+                "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.03333333333333333,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.003333333333333333
+        },
+        "Construct a mining tool from iron ingots.": {
+            "instruction": "Construct a mining tool from iron ingots.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron_ore)\ncreate_item(item_type_to_craft = iron_ingot)\ngather_resource(resource_type = iron_ore)\ncreate_item(item_type_to_craft = iron_ingot)\ncreate_item(item_type = pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)",
+                "explore(object=world)\ndefeat_enemy(enemy_type = zombie)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron_ore)\ngather_resource(resource_type = iron_ore)",
+                "gather_resource(resource_type = iron_ore)",
+                "explore(object=world)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Create a pickaxe made of iron.": {
+            "instruction": "Create a pickaxe made of iron.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Assemble an iron pickaxe for digging.": {
+            "instruction": "Assemble an iron pickaxe for digging.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = stone_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type = iron_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Build a reliable pickaxe forged from iron.": {
+            "instruction": "Build a reliable pickaxe forged from iron.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type = stone_pickaxe)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type = iron_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type = iron_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Craft an iron sword.": {
+            "instruction": "Craft an iron sword.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)",
+                "gather_resource(resource_type = iron)"
+            ],
+            "rewards": [
+                0.0,
+                0.03333333333333333,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.008333333333333333
+        },
+        "Forge a blade out of iron.": {
+            "instruction": "Forge a blade out of iron.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_sword)",
+                "gather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Create a sword using iron ingots.": {
+            "instruction": "Create a sword using iron ingots.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Build a weapon made of iron.": {
+            "instruction": "Build a weapon made of iron.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type = iron_sword)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)",
+                "gather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Construct a sharp sword forged from iron.": {
+            "instruction": "Construct a sharp sword forged from iron.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_sword)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_sword)\ncreate_item(item_type_to_craft = iron_sword)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        },
+        "Fashion an iron sword for combat.": {
+            "instruction": "Fashion an iron sword for combat.",
+            "plan_options": [
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)",
+                "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)",
+                "gather_resource(resource_type = iron)"
+            ],
+            "rewards": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mean_reward": 0.0
+        }
+    },
+    "mapping_plan_to_instruction": {
+        "explore(object=world)": [
+            "Explore the environment",
+            "Take a walk around and see what you can find",
+            "Look around the area and investigate your surroundings",
+            "Wander through the environment and discover what's there",
+            "Move freely through the world and explore its corners",
+            "Travel around the map and check out different places",
+            "Roam the landscape and look for interesting things",
+            "Survey the environment and observe what\u2019s nearby",
+            "Navigate through the terrain and see what it holds",
+            "Go out and examine the world around you",
+            "Search the area for anything unusual or interesting",
+            "Step outside and explore the nearby environment",
+            "Stroll through the world and take in your surroundings",
+            "Leave your starting point and venture into the unknown",
+            "Move through the world and see what\u2019s waiting",
+            "Uncover hidden parts of the map by walking around",
+            "Explore different directions to learn about the area",
+            "Walk through the terrain and learn about the world",
+            "Head out and explore wherever your path leads",
+            "Investigate your environment and find something new",
+            "Discover your surroundings by moving through them",
+            "Harvest logs from nearby trees.",
+            "Procure wood by felling trees in the area.",
+            "Set down a crafting bench in the area.",
+            "Install a crafting workstation at your location.",
+            "Arrange a crafting station in a suitable spot.",
+            "Pick up a small tree shoot from the ground.",
+            "Harvest a sprouting tree seedling.",
+            "Find and collect a young tree sprout.",
+            "Gather a tree offspring ready for planting.",
+            "Find and collect a drinkable resource.",
+            "Procure a refreshing drink from nearby.",
+            "Eliminate an undead creature lurking nearby.",
+            "Take down a zombie using any weapon.",
+            "Overcome a night-stalking undead being.",
+            "Retrieve stone fragments from nearby boulders.",
+            "Install a stone cube where needed.",
+            "Destroy a bony adversary roaming nearby.",
+            "Take down a skeletal creature in the area.",
+            "Position a smelter in the area.",
+            "Harvest metallic resources for use.",
+            "Collect a diamond.",
+            "Retrieve a precious gem from a deposit.",
+            "Find and collect a valuable diamond."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)\ndefeat_enemy(enemy_type = zombie)": [
+            "Survey the environment and observe what\u2019s nearby",
+            "Move through the world and see what\u2019s waiting",
+            "Take down a zombie using any weapon."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)": [
+            "Move through the world and see what\u2019s waiting",
+            "Assemble a mining tool made of wood.",
+            "Construct a wooden pickaxe for digging.",
+            "Fashion a pickaxe out of wooden parts.",
+            "Carve and build a wooden mining tool.",
+            "Forge a lightweight pickaxe from wood."
+        ],
+        "gather_resource(resource_type = wood)": [
+            "Collect wood.",
+            "Chop down some timber to gather wood.",
+            "Cut a tree to obtain wooden resources."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = wood)": [
+            "Chop down some timber to gather wood.",
+            "Retrieve lumber from a fallen tree."
+        ],
+        "explore(object = world)\ngather_resource(resource_type = wood)": [
+            "Chop down some timber to gather wood."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = plant)": [
+            "Cut a tree to obtain wooden resources.",
+            "Retrieve lumber from a fallen tree.",
+            "Gather a tree offspring ready for planting.",
+            "Harvest a sparkling jewel for crafting."
+        ],
+        "gather_resource(resource_type = plant)\ncreate_item(item_type = wooden_pickaxe)": [
+            "Retrieve lumber from a fallen tree."
+        ],
+        "explore(object = world)\ndefeat_enemy(enemy_type = tree)": [
+            "Procure wood by felling trees in the area."
+        ],
+        "explore(object = world)": [
+            "Procure wood by felling trees in the area.",
+            "Arrange a crafting station in a suitable spot.",
+            "Find and collect a young tree sprout.",
+            "Gather a tree offspring ready for planting.",
+            "Retrieve stone fragments from nearby boulders.",
+            "Retrieve black ore to use as fuel."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = table)": [
+            "Place a crafting table.",
+            "Set down a crafting bench in the area.",
+            "Install a crafting workstation at your location.",
+            "Position a workbench for crafting nearby."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = table)": [
+            "Set down a crafting bench in the area."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = table)": [
+            "Install a crafting workstation at your location."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\nplace_item(item_type = table)": [
+            "Install a crafting workstation at your location.",
+            "Arrange a crafting station in a suitable spot."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type = table)": [
+            "Install a crafting workstation at your location."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = table)\nplace_item(item_type = table)": [
+            "Install a crafting workstation at your location."
+        ],
+        "place_item(item_type = table)": [
+            "Drop a table designed for crafting tasks."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ncreate_item(item_type_to_craft = wooden_sword)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)": [
+            "Eat a cow."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\neat(food_type = plant)\neat(food_type = plant)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)": [
+            "Eat a cow."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\neat(food_type = cow)": [
+            "Eat a cow."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\neat(food_type = cow)": [
+            "Eat a cow."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)": [
+            "Eat a cow.",
+            "Ingest cow meat for nourishment."
+        ],
+        "gather_resource(resource_type = cow)\neat(food_type = cow)": [
+            "Eat a cow."
+        ],
+        "gather_resource(resource_type = cow)\ndefeat_enemy(enemy_type = cow)\neat(food_type = beef)": [
+            "Consume beef from a butchered cow."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\nexplore(object = world)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)": [
+            "Consume beef from a butchered cow."
+        ],
+        "defeat_enemy(enemy_type = cow)\neat(food_type = cow)": [
+            "Consume beef from a butchered cow.",
+            "Devour meat obtained from a bovine animal."
+        ],
+        "explore(object=world)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)": [
+            "Devour meat obtained from a bovine animal."
+        ],
+        "explore(object=world)\ndefeat_enemy(enemy_type = cow)\ngather_resource(resource_type = cow)\neat(food_type = cow)": [
+            "Devour meat obtained from a bovine animal."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)": [
+            "Savor a meal made from cow flesh.",
+            "Enjoy a dish prepared with beef."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ngather_resource(resource_type = cow)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)": [
+            "Enjoy a dish prepared with beef."
+        ],
+        "defeat_enemy(enemy_type = cow)\neat(food_type = beef)": [
+            "Enjoy a dish prepared with beef."
+        ],
+        "gather_resource(resource_type = cow)\ndefeat_enemy(enemy_type = cow)\neat(food_type = cow)": [
+            "Enjoy a dish prepared with beef."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type_to_craft = cow)\neat(food_type = cow)": [
+            "Enjoy a dish prepared with beef."
+        ],
+        "gather_resource(resource_type = plant)\neat(food_type = plant)": [
+            "Ingest cow meat for nourishment.",
+            "Acquire a beverage to quench thirst.",
+            "Eat a plant.",
+            "Consume a green plant for sustenance.",
+            "Nibble on vegetation to regain strength.",
+            "Eat a leaf-based food source.",
+            "Chew on a herbaceous snack for energy.",
+            "Devour a plant to satisfy your hunger."
+        ],
+        "gather_resource(resource_type = plant)": [
+            "Gather a sapling.",
+            "Pick up a small tree shoot from the ground.",
+            "Retrieve a sapling to plant elsewhere.",
+            "Harvest a sprouting tree seedling.",
+            "Gather a tree offspring ready for planting."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = sapling)\nplace_item(item_type = sapling)": [
+            "Retrieve a sapling to plant elsewhere."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = plant)\nplace_item(item_type = plant)": [
+            "Retrieve a sapling to plant elsewhere."
+        ],
+        "gather_resource(resource_type = plant)\nplace_item(item_type = plant)": [
+            "Retrieve a sapling to plant elsewhere.",
+            "Harvest a sprouting tree seedling.",
+            "Place a plant.",
+            "Position a green sprout in the ground.",
+            "Plant a botanical seedling in the area.",
+            "Place a flower or shrub in a chosen spot."
+        ],
+        "gather_resource(resource_type = wood)\nexplore(object = world)": [
+            "Retrieve a sapling to plant elsewhere."
+        ],
+        "gather_resource(resource_type = wood)\ncreate_item(item_type = sapling)\nplace_item(item_type = sapling)": [
+            "Retrieve a sapling to plant elsewhere."
+        ],
+        "explore(object = world)\ngather_resource(resource_type = plant)": [
+            "Harvest a sprouting tree seedling."
+        ],
+        "gather_resource(resource_type = plant)\ncreate_item(item_type = wooden_pickaxe)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\nplace_item(item_type = plant)": [
+            "Harvest a sprouting tree seedling."
+        ],
+        "gather_resource(resource_type = plant)\ncreate_item(item_type = wooden_pickaxe)\ngather_resource(resource_type = wood)\nplace_item(item_type = plant)": [
+            "Harvest a sprouting tree seedling."
+        ],
+        "gather_resource(resource_type = plant)\ncreate_item(item_type_to_craft = wooden_pickaxe)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_pickaxe)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_pickaxe)\ngather_resource(resource_type = wood)\nplace_item(item_type = plant)": [
+            "Harvest a sprouting tree seedling."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type = plant)\neat(food_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type = water)": [
+            "Collect a drink."
+        ],
+        "gather_resource(resource_type = water)": [
+            "Collect a drink.",
+            "Retrieve a liquid for hydration.",
+            "Gather a liquid item suitable for drinking."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type_to_craft = plant)\neat(food_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type_to_craft = water)": [
+            "Collect a drink."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = water)": [
+            "Retrieve a liquid for hydration.",
+            "Gather a liquid item suitable for drinking."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = plant)\neat(food_type = plant)": [
+            "Acquire a beverage to quench thirst."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type = plant)\neat(food_type = plant)\ncreate_item(item_type = water)\ndrink(item_type = water)": [
+            "Procure a refreshing drink from nearby."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type = plant)\neat(food_type = plant)\ncreate_item(item_type = water)": [
+            "Procure a refreshing drink from nearby."
+        ],
+        "gather_resource(resource_type = water)\neat(food_type = water)": [
+            "Procure a refreshing drink from nearby."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = water)\neat(food_type = water)": [
+            "Procure a refreshing drink from nearby."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\ncreate_item(item_type = plant)\neat(food_type = plant)\ncreate_item(item_type = water)\ndrink(food_type = water)": [
+            "Procure a refreshing drink from nearby."
+        ],
+        "create_item(item_type = wooden_pickaxe)": [
+            "Craft a wooden pickaxe."
+        ],
+        "create_item(item_type_to_craft = wooden_pickaxe)": [
+            "Craft a wooden pickaxe."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_pickaxe)": [
+            "Carve and build a wooden mining tool.",
+            "Forge a lightweight pickaxe from wood."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)": [
+            "Craft a wooden sword.",
+            "Forge a blade made from wooden materials.",
+            "Construct a simple sword using wood.",
+            "Create a weapon crafted from timber.",
+            "Build a wooden blade for self-defense."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)": [
+            "Craft a wooden sword.",
+            "Forge a blade made from wooden materials.",
+            "Construct a simple sword using wood.",
+            "Create a weapon crafted from timber.",
+            "Build a wooden blade for self-defense."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)": [
+            "Craft a wooden sword.",
+            "Carve a wooden sword for protection."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)": [
+            "Carve a wooden sword for protection."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_sword)": [
+            "Create a weapon crafted from timber."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)": [
+            "Create a weapon crafted from timber."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = soil)\nplace_item(item_type = plant)": [
+            "Set a plant into the soil."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = water)\nplace_item(item_type = plant)": [
+            "Set a plant into the soil."
+        ],
+        "gather_resource(resource_type = plant)\nexplore(object = world)\nplace_item(item_type = plant)": [
+            "Set a plant into the soil.",
+            "Install a plant in a sunny location."
+        ],
+        "gather_resource(resource_type = plant)\nexplore(object = world)": [
+            "Set a plant into the soil."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\nplace_item(item_type = plant)": [
+            "Set a plant into the soil."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)\ndefeat_enemy(enemy_type = zombie)": [
+            "Set a plant into the soil.",
+            "Take down a zombie using any weapon."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = plant)\nplace_item(item_type = plant)": [
+            "Plant a botanical seedling in the area.",
+            "Place a flower or shrub in a chosen spot."
+        ],
+        "gather_resource(resource_type = plant)\nexplore(object = world)\ndefeat_enemy(enemy_type = zombie)\nplace_item(item_type = plant)": [
+            "Install a plant in a sunny location."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = plant)\nexplore(object=world)\ngather_resource(resource_type = wood)\ncreate_item(item_type = table)\nplace_item(item_type = table)\nexplore(object=world)\ngather_resource(resource_type = plant)\nplace_item(item_type = plant)": [
+            "Install a plant in a sunny location."
+        ],
+        "explore(object=world)\ngather_resource(resource_type=plant)": [
+            "Install a plant in a sunny location."
+        ],
+        "gather_resource(resource_type = plant)\nexplore(object = world)\ndefeat_enemy(enemy_type = cow)\nplace_item(item_type = plant)": [
+            "Install a plant in a sunny location."
+        ],
+        "explore(object=world)\ndefeat_enemy(enemy_type = zombie)": [
+            "Defeat a zombie.",
+            "Eliminate an undead creature lurking nearby.",
+            "Vanquish a wandering zombie in combat.",
+            "Destroy a rotting foe roaming the area.",
+            "Take down a zombie using any weapon.",
+            "Overpower a bone-clad enemy in battle."
+        ],
+        "explore(object=world)\n: defeat_enemy(enemy_type = zombie)": [
+            "Defeat a zombie."
+        ],
+        "gather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_sword)\ndefeat_enemy(enemy_type = zombie)": [
+            "Take down a zombie using any weapon."
+        ],
+        "gather_resource(resource_type = stone)": [
+            "Collect stone.",
+            "Mine stone blocks from a rocky surface.",
+            "Break apart rocks to gather stone.",
+            "Harvest stone materials from the ground.",
+            "Extract useful stone for crafting purposes."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = stone)": [
+            "Mine stone blocks from a rocky surface.",
+            "Break apart rocks to gather stone.",
+            "Harvest stone materials from the ground."
+        ],
+        "gather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)\nexplore(object = world)\nplace_item(item_type = wooden_pickaxe)\ngather_resource(resource_type = stone)": [
+            "Mine stone blocks from a rocky surface."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nexplore(object = world)": [
+            "Break apart rocks to gather stone."
+        ],
+        "explore(object = world)\ngather_resource(resource_type = stone)": [
+            "Retrieve stone fragments from nearby boulders."
+        ],
+        "gather_resource(resource_type = stone)\nplace_item(item_type = stone)": [
+            "Place a stone block.",
+            "Set a block of stone in its place.",
+            "Position a solid stone block on the ground.",
+            "Install a stone cube where needed.",
+            "Arrange a block of stone in the area."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = stone)": [
+            "Install a stone cube where needed."
+        ],
+        "gather_resource(resource_type = stone)\ncreate_item(item_type = stone_slab)\nplace_item(item_type = stone_slab)": [
+            "Place a stone slab in the desired spot."
+        ],
+        "eat(food_type = plant)": [
+            "Nibble on vegetation to regain strength.",
+            "Devour a plant to satisfy your hunger."
+        ],
+        "gather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)\ndefeat_enemy(enemy_type = skeleton)": [
+            "Defeat a skeleton."
+        ],
+        "explore(object=world)\ndefeat_enemy(enemy_type = skeleton)": [
+            "Defeat a skeleton.",
+            "Destroy a bony adversary roaming nearby.",
+            "Vanquish a skeletal warrior in combat."
+        ],
+        "gather_resource(resource_type = iron)\n: create_item(item_type_to_craft = iron_sword)\n: defeat_enemy(enemy_type = skeleton)": [
+            "Defeat a skeleton."
+        ],
+        "explore(object=world)\nmove_to(object=skeleton)\ndefeat_enemy(enemy_type = skeleton)": [
+            "Destroy a bony adversary roaming nearby."
+        ],
+        "explore(object=world)\ngather_resource(resource_type=wood)\ngather_resource(resource_type=wood)\ncreate_item(item_type=wooden_sword)\ndefeat_enemy(enemy_type=skeleton)": [
+            "Destroy a bony adversary roaming nearby."
+        ],
+        "defeat_enemy(enemy_type = skeleton)": [
+            "Eliminate a skeleton using your weapon."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = stone_pickaxe)": [
+            "Craft a stone pickaxe."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ncreate_item(item_type = stone_pickaxe)": [
+            "Craft a stone pickaxe."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type_to_craft = stone_pickaxe)": [
+            "Forge a sturdy pickaxe from stone.",
+            "Create a pickaxe built from stone materials.",
+            "Carve a reliable pickaxe from stone."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type_to_craft = stone_pickaxe)": [
+            "Forge a sturdy pickaxe from stone.",
+            "Create a pickaxe built from stone materials."
+        ],
+        "gather_resource(resource_type = rock)\ngather_resource(resource_type = rock)\ncreate_item(item_type = stone_pickaxe)": [
+            "Construct a durable mining tool using rocks."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type = stone_pickaxe)": [
+            "Create a pickaxe built from stone materials.",
+            "Carve a reliable pickaxe from stone."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type = stone_pickaxe)": [
+            "Create a pickaxe built from stone materials.",
+            "Carve a reliable pickaxe from stone."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = stone_pickaxe)": [
+            "Assemble a heavy-duty stone pickaxe."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = stone_pickaxe)": [
+            "Assemble a heavy-duty stone pickaxe."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = stone_pickaxe)": [
+            "Assemble a heavy-duty stone pickaxe."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = stone_pickaxe)": [
+            "Assemble a heavy-duty stone pickaxe."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = stone_pickaxe)": [
+            "Assemble a heavy-duty stone pickaxe."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type_to_craft = stone_pickaxe)": [
+            "Assemble a heavy-duty stone pickaxe."
+        ],
+        "gather_resource(resource_type = stone)\ncreate_item(item_type = furnace)\nplace_item(item_type = furnace)": [
+            "Place a furnace.",
+            "Drop a furnace for crafting needs."
+        ],
+        "gather_resource(resource_type = stone)\nplace_item(item_type = furnace)": [
+            "Place a furnace.",
+            "Install a furnace at your location.",
+            "Drop a furnace for crafting needs.",
+            "Put a furnace on the ground to use."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = furnace)": [
+            "Place a furnace.",
+            "Set up a furnace for smelting.",
+            "Install a furnace at your location.",
+            "Position a smelter in the area.",
+            "Put a furnace on the ground to use."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = furnace)": [
+            "Set up a furnace for smelting."
+        ],
+        "gather_resource(resource_type = coal)\ngather_resource(resource_type = stone)\ncreate_item(item_type = furnace)": [
+            "Set up a furnace for smelting."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\nplace_item(item_type = stone)\nplace_item(item_type = stone)\nplace_item(item_type = stone)\nplace_item(item_type = stone)\ncreate_item(item_type = furnace)": [
+            "Set up a furnace for smelting."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ngather_resource(resource_type = stone)": [
+            "Install a furnace at your location."
+        ],
+        "gather_resource(resource_type = stone)\ngather_resource(resource_type = stone)\ncreate_item(item_type = furnace)": [
+            "Install a furnace at your location."
+        ],
+        "gather_resource(resource_type = coal)\ngather_resource(resource_type = stone)\ncreate_item(item_type = furnace)\nplace_item(item_type = furnace)": [
+            "Position a smelter in the area."
+        ],
+        "gather_resource(resource_type = coal)\ngather_resource(resource_type = stone)\ncreate_item(item_type_to_craft = furnace)\nplace_item(item_type = furnace)": [
+            "Position a smelter in the area."
+        ],
+        "place_item(item_type = furnace)": [
+            "Drop a furnace for crafting needs."
+        ],
+        "gather_resource(resource_type = coal)": [
+            "Collect coal.",
+            "Mine coal from the ground.",
+            "Harvest coal for smelting purposes.",
+            "Retrieve black ore to use as fuel.",
+            "Gather some coal for crafting."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = coal)": [
+            "Mine coal from the ground.",
+            "Retrieve black ore to use as fuel.",
+            "Extract coal from a nearby deposit."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = coal)\nplace_item(item_type = coal)": [
+            "Extract coal from a nearby deposit."
+        ],
+        "gather_resource(resource_type = iron)": [
+            "Collect iron.",
+            "Mine iron ore from the earth.",
+            "Gather raw iron for forging.",
+            "Extract iron from a nearby vein.",
+            "Retrieve iron ore for crafting tools.",
+            "Harvest metallic resources for use.",
+            "Forge a blade out of iron."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = iron)": [
+            "Collect iron.",
+            "Mine iron ore from the earth.",
+            "Extract iron from a nearby vein.",
+            "Retrieve iron ore for crafting tools.",
+            "Harvest metallic resources for use."
+        ],
+        "gather_resource(resource_type = diamond)": [
+            "Collect a diamond.",
+            "Mine a shiny diamond from the ground."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = diamond)": [
+            "Collect a diamond.",
+            "Mine a shiny diamond from the ground.",
+            "Retrieve a precious gem from a deposit.",
+            "Extract a rare diamond from a hidden vein."
+        ],
+        "explore(object=world)\ngather_resource(resource_type = gem)": [
+            "Retrieve a precious gem from a deposit."
+        ],
+        "explore(object = world)\ngather_resource(resource_type = precious_gem)": [
+            "Retrieve a precious gem from a deposit."
+        ],
+        "gather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)\ngather_resource(resource_type = plant)": [
+            "Harvest a sparkling jewel for crafting."
+        ],
+        "explore(object = world)\ngather_resource(resource_type = plant)\neat(food_type = plant)": [
+            "Harvest a sparkling jewel for crafting."
+        ],
+        "explore(object = world)\ngather_resource(resource_type = plant)\neat(food_type = plant)\ngather_resource(resource_type = water)\ngather_resource(resource_type = plant)\ncreate_item(item_type_to_craft = sparkling_jewel)": [
+            "Harvest a sparkling jewel for crafting."
+        ],
+        "explore(object = world)\ngather_resource(resource_type = diamond)": [
+            "Find and collect a valuable diamond."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = wooden_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)": [
+            "Craft an iron pickaxe.",
+            "Assemble an iron pickaxe for digging."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)": [
+            "Craft an iron pickaxe.",
+            "Construct a mining tool from iron ingots.",
+            "Create a pickaxe made of iron.",
+            "Build a reliable pickaxe forged from iron.",
+            "Build a weapon made of iron.",
+            "Construct a sharp sword forged from iron."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_pickaxe)\ndestroy_item(item_type = stone_pickaxe)\ncreate_item(item_type_to_craft = iron_pickaxe)": [
+            "Forge a durable pickaxe using iron."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_pickaxe)\ncreate_item(item_type_to_craft = iron_pickaxe)": [
+            "Forge a durable pickaxe using iron."
+        ],
+        "gather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)": [
+            "Forge a durable pickaxe using iron."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type = stone_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type = stone_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type = stone_pickaxe)": [
+            "Forge a durable pickaxe using iron."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_pickaxe)": [
+            "Forge a durable pickaxe using iron."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_pickaxe)\ncreate_item(item_type_to_craft = stone_pickaxe)\ncreate_item(item_type_to_craft = stone_pickaxe)\ncreate_item(item_type_to_craft = stone_pickaxe)\ncreate_item(item_type_to_craft = iron_pickaxe)": [
+            "Forge a durable pickaxe using iron."
+        ],
+        "gather_resource(resource_type = iron_ore)\ncreate_item(item_type_to_craft = iron_ingot)\ngather_resource(resource_type = iron_ore)\ncreate_item(item_type_to_craft = iron_ingot)\ncreate_item(item_type = pickaxe)": [
+            "Construct a mining tool from iron ingots."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)": [
+            "Construct a mining tool from iron ingots.",
+            "Create a sword using iron ingots.",
+            "Build a weapon made of iron.",
+            "Construct a sharp sword forged from iron."
+        ],
+        "explore(object=world)\ndefeat_enemy(enemy_type = zombie)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)": [
+            "Construct a mining tool from iron ingots."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = stone_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)": [
+            "Assemble an iron pickaxe for digging."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type = wooden_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type = iron_pickaxe)": [
+            "Assemble an iron pickaxe for digging."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = wood)\ngather_resource(resource_type = wood)\ncreate_item(item_type_to_craft = iron_pickaxe)": [
+            "Assemble an iron pickaxe for digging."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type = stone_pickaxe)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type = iron_pickaxe)": [
+            "Build a reliable pickaxe forged from iron."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type = iron_pickaxe)": [
+            "Build a reliable pickaxe forged from iron."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)": [
+            "Build a reliable pickaxe forged from iron."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_pickaxe)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_pickaxe)": [
+            "Build a reliable pickaxe forged from iron."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)": [
+            "Craft an iron sword.",
+            "Construct a sharp sword forged from iron.",
+            "Fashion an iron sword for combat."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)": [
+            "Craft an iron sword.",
+            "Build a weapon made of iron."
+        ],
+        "gather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = iron_sword)": [
+            "Craft an iron sword.",
+            "Forge a blade out of iron."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_sword)": [
+            "Forge a blade out of iron."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type = iron_sword)": [
+            "Build a weapon made of iron."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_sword)": [
+            "Construct a sharp sword forged from iron."
+        ],
+        "gather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ngather_resource(resource_type = iron)\ncreate_item(item_type_to_craft = stone_sword)\ncreate_item(item_type_to_craft = iron_sword)": [
+            "Construct a sharp sword forged from iron."
+        ]
+    }
+}
