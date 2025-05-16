@@ -641,26 +641,31 @@ class GRPOTrainer(Trainer):
             self.vllm_client.reset_prefix_cache()
 
     @profiling_decorator
-    def _prepare_inputs(self, inputs):
+    def _prepare_inputs(self, raw_inputs):
         # 1) Collate list[dict] → dict[str, Tensor]
-        if isinstance(inputs, (list, tuple)):
+        if isinstance(raw_inputs, (list, tuple)):
             batch = {}
-            # ключи у всех примеров одинаковые
-            for key in inputs[0].keys():
-                vals = [ex[key] for ex in inputs]
+            for key in raw_inputs[0].keys():
+                vals = [ex[key] for ex in raw_inputs]
                 if isinstance(vals[0], torch.Tensor):
                     batch[key] = torch.stack(vals, dim=0)
                 else:
                     batch[key] = vals
             inputs = batch
-        # 2) передать в оригинальный метод, который, кстати,
-        #    НИКОГДА не вызывает _generate_and_score_completions
-        return super()._prepare_inputs(inputs)
+        else:
+            inputs = raw_inputs
 
+        # 2) Пропускаем через оригинальный подготовительный метод
+        inputs = super()._prepare_inputs(inputs)
+
+        # 3) Сразу вызываем генерацию/скоринг, чтобы получить все нужные тензоры
+        gen_outputs = self._generate_and_score_completions(inputs)
+        inputs.update(gen_outputs)
+
+        return inputs
+    
     def _generate_and_score_completions(self, inputs):
-        """
-        Оффлайн: вместо generate() берём готовые completion_ids и сразу считаем per-token logps.
-        """
+ 
 
         # 1) Сразу достаём всё из сколлированного батча
         prompt_ids      = inputs["prompt_ids"]       # (B, P)
@@ -672,14 +677,17 @@ class GRPOTrainer(Trainer):
         # 2) Вычисляем logits_to_keep по тому же принципу, что в оригинале
         #    Он даст список индексов словаря, которые встречаются в completion_ids
         logits_to_keep = completion_ids.size(1)
-
+        # flat_ids = completion_ids[completion_mask.bool()]           # (sum_nonpad,)
+        # logits_to_keep = torch.unique(flat_ids).tolist() # [id1, id2, ...]
+        
+        input_ids      = torch.cat([prompt_ids,      completion_ids], dim=1)  # (B, P+C)
+        attention_mask = torch.cat([prompt_mask,     completion_mask], dim=1) # (B, P+C)
+        
         # 3) Считаем per-token log-probs policy-модели
         old_per_token_logps = self._get_per_token_logps(
             self.model,
-            prompt_ids,
-            prompt_mask,
-            completion_ids,
-            completion_mask,
+            input_ids,
+            attention_mask,
             logits_to_keep=logits_to_keep,
         )
 
@@ -687,10 +695,8 @@ class GRPOTrainer(Trainer):
         with torch.no_grad():
             ref_per_token_logps = self._get_per_token_logps(
                 self.ref_model,
-                prompt_ids,
-                prompt_mask,
-                completion_ids,
-                completion_mask,
+                input_ids,
+                attention_mask,
                 logits_to_keep=logits_to_keep,
             )
 
