@@ -692,13 +692,13 @@ class GRPOTrainer(Trainer):
         )
 
         # 4) Считаем per-token log-probs ref_model (без градиентов)
-        with torch.no_grad():
-            ref_per_token_logps = self._get_per_token_logps(
-                self.ref_model,
-                input_ids,
-                attention_mask,
-                logits_to_keep=logits_to_keep,
-            )
+        # with torch.no_grad():
+        #     ref_per_token_logps = self._get_per_token_logps(
+        #         self.ref_model,
+        #         input_ids,
+        #         attention_mask,
+        #         logits_to_keep=logits_to_keep,
+        #     )
 
         # 5) Нормируем raw rewards в преимущества
         #    (batch-wise normalization, как в оригинале GRPOTrainer)
@@ -778,7 +778,7 @@ class GRPOTrainer(Trainer):
             "completion_ids":      completion_ids,
             "completion_mask":     completion_mask,
             "old_per_token_logps": old_per_token_logps,
-            "ref_per_token_logps": ref_per_token_logps,
+            "ref_per_token_logps": inputs['ref_per_token_logps'],
             "advantages":          advantages,
         }
         
