@@ -32,7 +32,7 @@ def main():
         output_dir="offline-grpo-run",
         num_iterations=2,
         num_generations=4,
-        per_device_train_batch_size=4,
+        per_device_train_batch_size=8,
         scale_rewards=True,
     )
 
