@@ -194,3 +194,48 @@ class InstructionPlanDataset(Dataset):
             'completion_mask': ex['completion_mask'],
             'reward':           torch.tensor(ex['reward'], dtype=torch.float),
         }
+
+
+import pickle
+import torch
+from torch.utils.data import Dataset
+
+class CachedRefLogitsDataset(Dataset):
+    def __init__(self, cache_path: str, pad_token_id: int):
+        """
+        cache_path    — путь к pickle, что вы сохранили в cache_ref_logits.py  
+        pad_token_id  — tokenizer.pad_token_id, чтобы можно было пэдить, если нужно  
+        """
+        with open(cache_path, "rb") as f:
+            self.cache = pickle.load(f)
+        self.pad = pad_token_id
+
+    def __len__(self):
+        return len(self.cache)
+
+    def __getitem__(self, idx):
+        # поддержка батча списка индексов
+        if isinstance(idx, (list, torch.Tensor)):
+            if isinstance(idx, torch.Tensor):
+                idx = idx.tolist()
+            batch = [self.cache[i] for i in idx]
+            out = {}
+            for key in batch[0]:
+                vals = [ex[key] for ex in batch]
+                if isinstance(vals[0], list):
+                    # список чисел → Tensor
+                    out[key] = torch.tensor(vals, dtype=torch.long if "ids" in key or "mask" in key else torch.float)
+                else:
+                    # скаляры (reward) → Tensor
+                    out[key] = torch.tensor(vals, dtype=torch.float)
+            return out
+
+        ex = self.cache[idx]
+        return {
+            "prompt_ids":           torch.tensor(ex["prompt_ids"],       dtype=torch.long),
+            "prompt_mask":      torch.tensor(ex["attention_mask"],   dtype=torch.long),
+            "completion_ids":      torch.tensor(ex["completion_ids"],   dtype=torch.long),
+            "completion_mask":     torch.tensor(ex["completion_mask"],  dtype=torch.long),
+            "ref_per_token_logps": torch.tensor(ex["ref_per_token_logps"], dtype=torch.float),
+            "reward":              torch.tensor(ex["reward"],           dtype=torch.float),
+        }
