@@ -119,12 +119,21 @@ def main():
         device_map="auto",
         torch_dtype="auto"
     )
-    # cache_ref_logits(dataset_path, model_name, "dataset/optim_super_dataset_EASY_atomic.pkl")
-    # # 3) Готовим датасет
-    dataset = CachedRefLogitsDataset(
-        cache_path=dataset_path_pkl,
-        pad_token_id=tokenizer.pad_token_id
+    
+    dataset = InstructionPlanDataset(
+        path=dataset_path,
+        tokenizer=tokenizer,
+        max_length=512,
+        use_mapping=False,
+        min_reward=0.0
     )
+
+    # cache_ref_logits(dataset_path, model_name, "dataset/optim_super_dataset_EASY_atomic.pkl")
+    # # # 3) Готовим датасет
+    # dataset = CachedRefLogitsDataset(
+    #     cache_path=dataset_path_pkl,
+    #     pad_token_id=tokenizer.pad_token_id
+    # )
 
     # print(len(dataset))
     # 5) Конфиг для GRPO
@@ -137,8 +146,8 @@ def main():
         num_generations=2,
         per_device_train_batch_size=4,
         scale_rewards=True,
-        max_prompt_length=256,
-        max_completion_length=256,
+        max_prompt_length=512,
+        max_completion_length=128,
         cache_implementation="sliding_window",
         gradient_accumulation_steps = 1,
     )
