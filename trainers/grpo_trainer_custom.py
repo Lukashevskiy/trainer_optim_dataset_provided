@@ -666,14 +666,17 @@ class GRPOTrainer(Trainer):
         return inputs
     
     def _generate_and_score_completions(self, inputs):
- 
+        device = self.accelerator.device
+
 
         # 1) Сразу достаём всё из сколлированного батча
         prompt_ids      = inputs["prompt_ids"]       # (B, P)
         completion_ids  = inputs["completion_ids"]   # (B, C)
         prompt_mask     = inputs["prompt_mask"]      # (B, P)
         completion_mask = inputs["completion_mask"]  # (B, C)
-        rewards         = inputs["reward"].view(-1)  # (B,)
+        rewards         = inputs["reward"]  # (B,)
+        prompts        = inputs["prompt"]  # (B,) 
+        completions    = inputs["completion"]  # (B,)
         # print(rewards.shape)
         # raise ValueError("Debugging")
         # 2) Вычисляем logits_to_keep по тому же принципу, что в оригинале
@@ -709,28 +712,41 @@ class GRPOTrainer(Trainer):
         # 5) Нормируем raw rewards в преимущества
         #    (batch-wise normalization, как в оригинале GRPOTrainer)
         #    Если num_generations > 1, reshape, иначе просто центрируем
-        B = rewards.size(0)
-        G = getattr(self.args, "num_generations", 1)
-        if G > 1:
-            r = rewards.view(-1, G)               # (N, G)
-            mean_r = r.mean(dim=1, keepdim=True)  # (N,1)
-            if getattr(self.args, "scale_rewards", True):
-                std_r = r.std(dim=1, unbiased=False, keepdim=True)
-                adv = (r - mean_r) / (std_r + 1e-8)
-            else:
-                adv = r - mean_r
-            advantages = adv.view(-1)             # (B,)
-        else:
-            mean_r = rewards.mean()
-            if getattr(self.args, "scale_rewards", True):
-                std_r = rewards.std(unbiased=False)
-                advantages = (rewards - mean_r) / (std_r + 1e-8)
-            else:
-                advantages = rewards - mean_r
+       
+        # rewards_per_func = rewards_
 
-        # 6) Раскладываем advantages на каждый токен completion
-        advantages = advantages.unsqueeze(-1).expand_as(old_per_token_logps)  # (B, C)
-         # Log the metrics
+        # Apply weights to each reward function's output and sum
+        # rewards = (rewards_ * self.reward_weights.to(device).unsqueeze(0)).nansum(dim=1)
+
+        # # # Compute grouped-wise rewards
+        # mean_grouped_rewards = rewards.view(-1, self.num_generations).mean(dim=1)
+        # std_grouped_rewards = rewards.view(-1, self.num_generations).std(dim=1)
+        # # # Normalize the rewards to compute the advantages
+        # mean_grouped_rewards = mean_grouped_rewards.repeat_interleave(self.num_generations, dim=0)
+        # std_grouped_rewards = std_grouped_rewards.repeat_interleave(self.num_generations, dim=0)
+        # print({"mean_grouped_rewards": mean_grouped_rewards.tolist()})
+        # print({"std_grouped_rewards": std_grouped_rewards.tolist()})
+        # advantages = rewards - mean_grouped_rewards
+        # if self.args.scale_rewards:
+        #     advantages = advantages / (std_grouped_rewards + 1e-4)
+
+        # # Slice to keep only the local part of the data
+        # process_slice = slice(
+        #     self.accelerator.process_index * len(prompts),
+        #     (self.accelerator.process_index + 1) * len(prompts),
+        # )
+        # advantages = advantages[process_slice]
+        mean_r = rewards.mean()
+        std_r  = rewards.std(unbiased=False)
+
+        advantages = rewards - mean_r
+        if self.args.scale_rewards:
+            advantages = advantages / (std_r + 1e-8)
+
+        # расширяем на токены
+        advantages = advantages.unsqueeze(-1).expand_as(old_per_token_logps)
+        # print({"advantages": advantages.tolist()})
+        # Log the metrics
         mode = "eval" if self.control.should_evaluate else "train"
 
         if mode == "train":
@@ -747,14 +763,14 @@ class GRPOTrainer(Trainer):
         #     else:
         #         reward_func_name = reward_func.__name__
         #     # Only calculate mean for samples where this reward function was applied (non-NaN values)
-        #     mean_rewards = torch.nanmean(rewards_per_func[:, i]).item()
-        # self._metrics[mode][f"rewards/{reward_func_name}"].append(mean_rewards)
-        self._metrics[mode]["reward"].append(rewards.mean())
-        self._metrics[mode]["reward_std"].append(std_r.mean())
-
+        #     mean_rewards = torch.nanmean(rewards[:, i]).item()
+        #     self._metrics[mode][f"rewards/{reward_func_name}"].append(mean_rewards)
+        self._metrics[mode]["reward"].append(rewards.mean().item())
+        self._metrics[mode]["reward_std"].append(std_r.mean().item())
+        # print({'advantages': advantages.tolist()})
         if self.log_completions and self.state.global_step % self.args.logging_steps == 0:
-            prompts_to_log = gather_object(inputs['instruction'])
-            completions_to_log = gather_object(inputs['completion'])
+            prompts_to_log = gather_object(prompts)
+            completions_to_log = gather_object(completions)
             rewards_to_log = rewards.tolist()
 
             if self.accelerator.is_main_process:
@@ -774,6 +790,7 @@ class GRPOTrainer(Trainer):
                         "prompt": prompts_to_log,
                         "completion": completions_to_log,
                         "reward": rewards.tolist(),
+                        'advantages': advantages.tolist(),
                     }
                     df = pd.DataFrame(table)
                     wandb.log({"completions": wandb.Table(dataframe=df)})

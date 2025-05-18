@@ -123,7 +123,7 @@ def main():
     dataset = InstructionPlanDataset(
         path=dataset_path,
         tokenizer=tokenizer,
-        max_length=512,
+        max_length=256,
         use_mapping=False,
         min_reward=0.0
     )
@@ -143,12 +143,12 @@ def main():
     grpo_config = GRPOConfig(
         output_dir="offline-grpo-run",
         num_iterations=2,
-        num_generations=2,
-        per_device_train_batch_size=4,
-        scale_rewards=True,
-        max_prompt_length=512,
-        max_completion_length=128,
+        num_generations=2,  
+        scale_rewards=False,
+        max_prompt_length=128,
+        max_completion_length=64,
         cache_implementation="sliding_window",
+        per_device_train_batch_size=4,
         gradient_accumulation_steps = 1,
     )
 

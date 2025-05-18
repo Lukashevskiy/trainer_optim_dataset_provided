@@ -106,7 +106,8 @@ class InstructionPlanDataset(Dataset):
 
         # 3) Токенизируем ВСЕ динамические промпты и комплешены разом
         instr_texts = [
-            prompt_template.replace("$INSTRUCTION$", ex['instruction'].strip())
+            # prompt_template.replace("$INSTRUCTION$", ex['instruction'].strip())
+            ex['instruction'].strip()
             for ex in self.examples
         ]
         dyn_tokenized = tokenizer(
