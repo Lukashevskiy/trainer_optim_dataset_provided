@@ -3,4 +3,5 @@ __pycache__
 Qwen2-0.5B-Instruct-GRPO
 trainer_output
 offline_grpo*
+offline-grpo-run/
 wandb

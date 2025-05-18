@@ -1,12 +1,15 @@
 import json
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from trl import GRPOConfig
+from trl import GRPOConfig, SFTTrainer
 from instruction_adapter import InstructionPlanDataset, CachedRefLogitsDataset
 from trainers.grpo_trainer_custom import GRPOTrainer
 from torch.utils.data import DataLoader
 import torch
 import pickle
 from tqdm import tqdm 
+from peft import LoraConfig
+import yaml 
+
 def cache_ref_logits(
     dataset_path: str,
     model_name: str,
@@ -71,8 +74,35 @@ def cache_ref_logits(
     # 6) Сохраняем в файл
     with open(cache_path, "wb") as f:
         pickle.dump(cache, f)
-    print(f"✅ Cached {len(cache)} examples to {cache_path}")
 
+def init_peft_config(path):
+    lora_config: any
+    with open(path, 'r') as f:
+        lora_config = yaml.safe_load(f)
+
+    return LoraConfig(
+        lora_alpha=lora_config['q_lora']['lora_alpha'],
+        lora_dropout=lora_config['q_lora']['lora_dropout'],
+        r=lora_config['q_lora']['lora_r'],
+        bias="none",
+        task_type="CAUSAL_LM",
+    )
+
+# def init_trainer(self, dataset, model_name):
+#     model, tokenizer = self.init_model_and_tokenizer(model_name)
+#     training_arguments = self.init_training_args()
+#     peft_config = self.init_peft_config()
+
+#     if self.task_type == "sft":
+#         return SFTTrainer(
+#             model=model,
+#             train_dataset=dataset,
+#             peft_config=peft_config,
+#             dataset_text_field="text",
+#             tokenizer=tokenizer,
+#             args=training_arguments,
+#             packing=self.config['sft']['packing'],
+#         )
 
 
 
@@ -96,14 +126,21 @@ def main():
         pad_token_id=tokenizer.pad_token_id
     )
 
-
+    # print(len(dataset))
     # 5) Конфиг для GRPO
+    
+    peft_config = init_peft_config("peft_config.yaml")
+    
     grpo_config = GRPOConfig(
         output_dir="offline-grpo-run",
         num_iterations=2,
-        num_generations=4,
-        per_device_train_batch_size=8,
+        num_generations=2,
+        per_device_train_batch_size=4,
         scale_rewards=True,
+        max_prompt_length=256,
+        max_completion_length=256,
+        cache_implementation="sliding_window",
+        gradient_accumulation_steps = 1,
     )
 
     # 6) Инстанцируем OfflineGRPOTrainer
@@ -114,6 +151,7 @@ def main():
         train_dataset=dataset,
         processing_class=tokenizer,
         reward_processing_classes=tokenizer,
+        peft_config=peft_config
     )
 
     # 7) Запускаем обучение

@@ -62,6 +62,7 @@ if is_deepspeed_available():
 
 if is_peft_available():
     from peft import PeftConfig, get_peft_model
+    print("AMPUM")
 
 
 if is_wandb_available():
@@ -673,7 +674,8 @@ class GRPOTrainer(Trainer):
         prompt_mask     = inputs["prompt_mask"]      # (B, P)
         completion_mask = inputs["completion_mask"]  # (B, C)
         rewards         = inputs["reward"].view(-1)  # (B,)
-
+        # print(rewards.shape)
+        # raise ValueError("Debugging")
         # 2) Вычисляем logits_to_keep по тому же принципу, что в оригинале
         #    Он даст список индексов словаря, которые встречаются в completion_ids
         logits_to_keep = completion_ids.size(1)
